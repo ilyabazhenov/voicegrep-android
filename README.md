@@ -2,117 +2,121 @@
 
 <img src=".github/assets/icon.png" alt="VoiceGrep" width="128" height="128">
 
-# VoiceGrep для Android
+# VoiceGrep for Android
 
-**Ваши встречи с Mac — в кармане.**
+**The meetings on your Mac, in your pocket.**
 
-Компаньон к [VoiceGrep для Mac](https://github.com/ilyabazhenov/voicegrep-releases): встречи, расшифровки,
-участники и ассистент на телефоне. Встречи по-прежнему хранит и обрабатывает Mac.
+A companion to [VoiceGrep for Mac](https://github.com/ilyabazhenov/voicegrep-releases): meetings, transcripts,
+participants and the assistant on your phone. Your Mac still stores and processes the meetings.
 
-[![Версия](https://img.shields.io/github/v/release/ilyabazhenov/voicegrep-android?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=0e7c6b)](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)
+[![Version](https://img.shields.io/github/v/release/ilyabazhenov/voicegrep-android?label=version&color=0e7c6b)](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)
 ![Android 10+](https://img.shields.io/badge/Android-10%2B-111111?logo=android)
-![Нужен VoiceGrep для Mac](https://img.shields.io/badge/%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-VoiceGrep%20%D0%B4%D0%BB%D1%8F%20Mac-111111?logo=apple)
-[![Obtainium](https://img.shields.io/badge/Obtainium-%D0%B0%D0%B2%D1%82%D0%BE%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-555555)](#обновления)
+![Requires VoiceGrep for Mac](https://img.shields.io/badge/requires-VoiceGrep%20for%20Mac-111111?logo=apple)
+[![Obtainium](https://img.shields.io/badge/Obtainium-auto--updates-555555)](#updates)
 
-**[Скачать APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** ·
-[voicegrep.com](https://voicegrep.com/ru/#phone) ·
-[English](README.en.md)
+**[Download the APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** ·
+[voicegrep.com](https://voicegrep.com/#phone) ·
+[Русский](README.md)
 
 </div>
 
-VoiceGrep на Mac записывает звонки, расшифровывает их на устройстве и узнаёт собеседников по голосу.
-Приложение для Android — пульт к этому архиву: открыть встречу по дороге, найти, о чём договорились,
-подписать нового собеседника или записать встречу в переговорке. Все правки и записи уходят на Mac
-и выполняются там.
+VoiceGrep on the Mac records calls, transcribes them on-device and recognizes who’s speaking by voice.
+The Android app is a remote for that archive: open a meeting on the go, find what was agreed, name a new
+speaker or record a meeting in a conference room. Every edit and recording goes to the Mac and is
+carried out there.
 
-Это бета. Интерфейс — на русском.
+This is a beta. The interface is in Russian.
 
-## Что умеет
+## What it does
 
-**Встречи**
-- **Поиск по тексту встреч.** Слово из разговора найдёт реплику и откроет встречу прямо на ней.
-- **Транскрипт, саммари и задачи** встречи; любую реплику можно послушать.
-- **Фильтр по участнику:** нажмите на человека над транскриптом — останутся только его реплики,
-  «Подряд» проиграет их одну за другой.
+**Meetings**
+- **Search meeting text.** A word from the conversation finds the line and opens the meeting right on it.
+- **Transcript, recap and tasks** of each meeting; play back any line.
+- **Filter by participant:** tap a person above the transcript to keep only their lines; “Подряд”
+  (In a row) plays them one after another.
 
-**Участники**
-- **Назвать голос без имени** — все его реплики перейдут к человеку, голос запомнится и будет узнаваться
-  на следующих встречах.
-- **Поправить узнавание:** перенести реплики другому человеку или исправить имя во всех встречах.
-- **Люди** — список и карточки собеседников.
+**Participants**
+- **Name an unnamed voice** — all its lines move to that person, and the voice is recognized in future
+  meetings.
+- **Fix recognition:** move lines to another person or correct a name across all meetings.
+- **People** — the list and cards of everyone you talk to.
 
-**Ассистент**
-- **Вопросы по встречам** — отвечает ассистент Mac, беседы общие с Mac.
-- **«Итоги дня»:** что решили, что вы взяли на себя, что вам обещали.
-- Нужна языковая модель, подключённая в VoiceGrep на Mac.
+**Assistant**
+- **Questions about your meetings** — answered by the assistant on the Mac; conversations are shared
+  with the Mac.
+- **Daily recap:** what was decided, what you took on, what you were promised.
+- Requires a language model connected in VoiceGrep on the Mac.
 
-**Запись в комнате**
-- Красная кнопка внизу экрана записывает встречу вживую. Запись уезжает на Mac и расшифровывается там,
-  как обычный звонок; копия на телефоне удаляется, только когда Mac её получил.
+**In-room recording**
+- The red button at the bottom records a meeting live. The recording travels to the Mac and is
+  transcribed there like any call; the phone deletes its copy only once the Mac has it.
 
-## Установка
+## Installation
 
-1. Установите [VoiceGrep для Mac](https://github.com/ilyabazhenov/voicegrep-releases) 1.12.0 или новее.
-2. **[Скачайте APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** на телефон и откройте его.
-   Android попросит разрешить установку из этого источника.
-3. На Mac: «Настройки → Данные → Телефон», включите «Доступ с телефона» (по умолчанию выключено).
-4. Там же «Подключить телефон…» — появится QR-код. Отсканируйте его в приложении. В первый раз телефон
-   и Mac должны быть в одной сети Wi-Fi; код одноразовый и действует 5 минут.
+1. Install [VoiceGrep for Mac](https://github.com/ilyabazhenov/voicegrep-releases) 1.12.0 or newer.
+2. **[Download the APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** to your phone and open it.
+   Android will ask you to allow installs from that source.
+3. On the Mac: Settings → Данные → Телефон (Data → Phone), turn on Доступ с телефона (Phone access).
+   It’s off by default.
+4. In the same place, click Подключить телефон… (Connect phone…) — a QR code appears. Scan it in the app.
+   The first time, the phone and the Mac must be on the same Wi-Fi; the code is single-use and valid
+   for 5 minutes.
 
-**Требования:** Android 10 или новее; Mac с VoiceGrep, который включён и не спит.
+**Requirements:** Android 10 or newer; a Mac running VoiceGrep that is on and awake.
 
-**Вне дома** телефон подключается через relay (переключатель «Подключаться через relay» в том же разделе
-настроек на Mac).
+**Away from home** the phone connects through a relay (the Подключаться через relay switch in the same
+Mac settings section).
 
-## Обновления
+## Updates
 
-Через [Obtainium](https://github.com/ImranR98/Obtainium): «Add App» → адрес
+With [Obtainium](https://github.com/ImranR98/Obtainium): “Add App” → the address
 
 ```
 https://github.com/ilyabazhenov/voicegrep-android
 ```
 
-Obtainium сам найдёт новые версии в релизах этого репозитория. Без него — скачайте APK из
-[последнего релиза](https://github.com/ilyabazhenov/voicegrep-android/releases/latest) и установите поверх.
+Obtainium finds new versions in this repository’s releases by itself. Without it, download the APK
+from the [latest release](https://github.com/ilyabazhenov/voicegrep-android/releases/latest) and install it
+over the old one.
 
-## Приватность
+## Privacy
 
-Mac остаётся главным: встречи, аудио и обработка — на нём.
+The Mac stays in charge: meetings, audio and processing live there.
 
-| Что | Где |
+| What | Where |
 |---|---|
-| Аудио звонков, расшифровка, узнавание голосов | на Mac |
-| Голосовые отпечатки | на Mac, на телефон не передаются |
-| Встречи, которые вы открывали | копия на телефоне, чтобы открывались быстрее |
-| Запись в комнате | на телефоне, пока Mac её не получит |
-| Ушло в облако | **0 байт**: relay передаёт только зашифрованные данные и не видит встреч |
+| Call audio, transcription, voice recognition | on the Mac |
+| Voiceprints | on the Mac, never sent to the phone |
+| Meetings you’ve opened | a copy on the phone, so they open faster |
+| In-room recording | on the phone until the Mac receives it |
+| Sent to the cloud | **0 bytes**: the relay only passes encrypted data and can’t see meetings |
 
-Связь с Mac — TLS 1.3, телефон и Mac знают ключи друг друга с момента сопряжения. Раз на телефоне
-лежат копии расшифровок, приложение при открытии (и через минуту в фоне) спрашивает отпечаток, лицо
-или код блокировки экрана. Отключить телефон — «Настройки → Данные → Телефон → Отозвать» на Mac:
-доступ пропадает сразу.
+The link to the Mac is TLS 1.3, and the phone and the Mac know each other’s keys from pairing on.
+Since the phone holds copies of transcripts, the app asks for your fingerprint, face or screen lock
+when it opens (and after a minute in the background). To disconnect a phone, use Settings → Данные →
+Телефон → Отозвать (Revoke) on the Mac: access ends immediately.
 
-**Разрешения:** «Камера» — отсканировать QR-код, «Микрофон» — записать встречу в комнате,
-«Уведомления» — показывать, что идёт запись или отправка на Mac.
+**Permissions:** Camera — to scan the QR code; Microphone — to record an in-room meeting;
+Notifications — to show that a recording or an upload to the Mac is in progress.
 
-## Обратная связь
+## Feedback
 
-Нашли ошибку или есть идея — [пишите в Telegram](https://t.me/ilyabazhenov).
+Found a bug or have an idea — [message us on Telegram](https://t.me/ilyabazhenov).
 
-## Что лежит в этом репозитории
+## What’s in this repository
 
-Код приложения закрыт. Здесь — только сборки:
+The app’s source is closed. This repository holds builds only:
 
-| Что | Где |
+| What | Where |
 |---|---|
-| `VoiceGrep-Android-<версия>.apk` | [Releases](https://github.com/ilyabazhenov/voicegrep-android/releases) |
-| Сборки для Mac, сайт, лента обновлений | [voicegrep-releases](https://github.com/ilyabazhenov/voicegrep-releases) |
+| `VoiceGrep-Android-<version>.apk` | [Releases](https://github.com/ilyabazhenov/voicegrep-android/releases) |
+| Mac builds, website, update feed | [voicegrep-releases](https://github.com/ilyabazhenov/voicegrep-releases) |
 
-<sub>Проверка подлинности: все APK подписаны одним ключом, SHA-256 сертификата
+<sub>Authenticity check: every APK is signed with the same key, certificate SHA-256
 `D3:31:ED:88:87:A2:B7:75:B1:18:42:08:F4:4E:39:8F:6C:4A:8A:74:8F:C6:03:BA:C9:77:95:D8:99:FD:6C:2D`.</sub>
 
 ---
 
 <div align="center">
-<sub>VoiceGrep — локальная запись и расшифровка звонков. Телефон — пульт, данные остаются на вашем Mac.</sub>
+<sub>VoiceGrep — local call recording and transcription. The phone is a remote; your data stays on your Mac.</sub>
 </div>
