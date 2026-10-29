@@ -16,7 +16,7 @@ participants and the assistant on your phone. Your Mac still stores and processe
 
 **[Download the APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** ·
 [voicegrep.com](https://voicegrep.com/#phone) ·
-[Русский](README.md)
+[Русский](README.ru.md)
 
 </div>
 

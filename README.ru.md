@@ -16,7 +16,7 @@
 
 **[Скачать APK](https://github.com/ilyabazhenov/voicegrep-android/releases/latest)** ·
 [voicegrep.com](https://voicegrep.com/ru/#phone) ·
-[English](README.en.md)
+[English](README.md)
 
 </div>
 
